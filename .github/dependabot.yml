@@ -3,13 +3,6 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: daily
+    interval: weekly
     time: "23:15"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: react-dom
-    versions:
-    - 17.0.2
-  - dependency-name: react
-    versions:
-    - 17.0.2
